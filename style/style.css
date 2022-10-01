@@ -53,16 +53,24 @@ body {
 h1 {
     font-size: xx-large;
     text-align: center;
-}
-
-p {
-    text-align: center;
     padding: 10px;
 }
+
 h3 {
     font-size: xx-large;
     text-align: left;
     font-family: Arial, sans-serif;
+}
+
+p {
+    text-align: left;
+    text-indent: 10%;
+    display: contents;
+}
+
+.align-center {
+    text-align: center;
+    padding: 10px;
 }
 
 .footer-container {
@@ -77,12 +85,19 @@ h3 {
 .logo {
     float: left;
     height: 120px;
+    width: 135px;
 }
 
 .footer-position {
     vertical-align: middle;
 }
 
-.vision {
+.image {
     float: right;
+    height: 190px;
+}
+
+.div-container {
+    height: 230px;
+    padding-bottom: 30px;
 }
